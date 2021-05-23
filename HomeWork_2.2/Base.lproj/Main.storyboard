@@ -20,6 +20,9 @@
                             <view contentMode="left" translatesAutoresizingMaskIntoConstraints="NO" id="i7t-ka-sax">
                                 <rect key="frame" x="10" y="10" width="355" height="174"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="174" id="GAP-Gn-dgO"/>
+                                </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="JNy-8M-8QA">
                                 <rect key="frame" x="10" y="239" width="355" height="130"/>
@@ -126,9 +129,8 @@
                         <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="JNy-8M-8QA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="5xR-bH-MiM"/>
-                            <constraint firstItem="JNy-8M-8QA" firstAttribute="top" secondItem="i7t-ka-sax" secondAttribute="bottom" constant="55" id="69b-QM-s5g"/>
+                            <constraint firstItem="JNy-8M-8QA" firstAttribute="top" secondItem="i7t-ka-sax" secondAttribute="bottom" constant="55" id="CCz-mZ-DfM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i7t-ka-sax" secondAttribute="trailing" constant="10" id="ZU1-Y7-NRj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="i7t-ka-sax" secondAttribute="bottom" constant="483" id="eqa-CL-7eM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JNy-8M-8QA" secondAttribute="trailing" constant="10" id="mvN-dq-MPs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JNy-8M-8QA" secondAttribute="trailing" constant="10" id="syx-po-ySl"/>
                             <constraint firstItem="i7t-ka-sax" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="vjX-6u-b3d"/>
